@@ -28,14 +28,35 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Computer Programmer", "Web Developer", "Programmer Analyst"],
+        strings: ["Computer Programmer", "Web Developer", "Software Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Computer Programmer", "Web Developer", "Programmer Analyst"],
+        strings: ["Computer Programmer", "Web Developer", "Software Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".about-me", {
+        strings: ["About Me"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    
+    var typed = new Typed(".projects", {
+        strings: ["My Works"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".footer", {
+        strings: ["Let's work together"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -62,3 +83,12 @@ $(document).ready(function(){
         }
     });
 });
+
+function opens(project, change) {
+    var projOne = document.getElementById("projOne");
+    var projTwo = document.getElementById("projTwo");
+    projOne.style.display  = "none";
+    projTwo.style.display = "none";
+
+    document.getElementById(project).style.display = "block";
+}
