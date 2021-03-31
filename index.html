@@ -47,7 +47,7 @@
         <!-- ABOUT -->
         <section class="about" id="about">
             <div class="max-width">
-                <h2 class="title">About Me</h2>
+                <h2 class="title"><span class="about-me"></span></h2>
                 <div class="about-content">
                     <div class="column right">
                         <div class="text">I'm Mahamed and I'm a <span class="typing-2"></span></div>
@@ -61,86 +61,171 @@
         <!-- PROJECT -->
         <section class="project" id="project">
             <div class="max-width">
-                <h2 class="title">My Works</h2>
+                <h2 class="title"><span class="projects"></span></h2>
                 <div class="serv-content">
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/E-Commerce-Site">E-Commerce Site</a>
-                            </div>
-                            <ul>
-                                <li>Developed code to add product into cart</li>
-                                <li>Functionalized login system</li>
-                                <li>View registered users and admin</li>
-                            </ul>                            
-                        </div>
-                    </div>
+                    <button class="tablink" onclick="opens('projOne', this)" id="defaultOpen">Web Projects</button>
+                    <button class="tablink" onclick="opens('projTwo', this)" id="defaultOpen">Software Projects</button>
                     
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/Hospital-Management-System">Hospital Management System</a>
-                            </div>
+                    <div id = "projOne" class="tabs" style="display:block">
+                        <br>
+                        <div class="projtitles">
+                            Restaurant Landing Page
+                        </div>
+                        
+                        <div class="projdesc">
                             <ul>
-                                <li>View patient’s record</li>
-                                <li>Assign doctor to patient</li>
-                                <li>Update and delete doctor and patient details</li>
-                                <li>Search for patient in database</li>
+                                <li>A Landing Page of a Restaurant built with HTML and CSS</li>
                             </ul>
                         </div>
-                    </div>
-                
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/Online-Shopping-Site">Concert Ticket Site</a>
-                            </div>
+
+                        <div class="tools">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Restaurant-Landing-Page">Source Code</a>
+                        </div>
+
+                        <div class="projtitles">
+                            Movie App
+                        </div>
+                        
+                        <div class="projdesc">
                             <ul>
-                                <li>Assign music artist to perform on dates</li>
-                                <li>View registered users and admin</li>
-                                <li>Search function to look up artist concert date</li>
-                                <li>Registration and login page</li>
+                                <li>You can see the home page of the search page on your browser where you can search any movies.</li>
                             </ul>
+                        </div>
+
+                        <div class="tools">
+                            <button>JavaScript</button>
+                            <button>CSS</button>
+                            <button>HTML</button>   
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Movie-App">Source Code</a>
+                        </div>
+                        
+                        <div class="projtitles">
+                            E-Commerce Site
+                        </div>
+
+                        <div class="projdesc">
+                            <ul>
+                                <li>An E-Commerce project for an Amazon-like website with database and admin</li>
+                            </ul>
+                        </div>
+
+                        <div class="tools">
+                            <button>PHP</button>
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>MySQL</button>
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/E-Commerce-Site">Source Code</a>
+                        </div>
+                    
+                        <div class="projtitles">
+                            Call Center Landing Page
+                        </div>
+                        
+                        <div class="projdesc">
+                            <ul>
+                                <li>A Call Center landing page using Bootstrap</li>
+                            </ul>
+                        <br>
+                        </div>
+
+                        <div class="tools">
+                            <button>Bootstrap</button>
+                            <button>CSS</button>  
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Call-Center-Landing-Page">Source Code</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/Inventory-System">Inventory System</a>
-                            </div>
+                    <!-- Second Tab -->
+                    <div class="tabs" id="projTwo" style="display:none">
+                        <br>
+                        <div class="projtitles">
+                            Banking System 
+                        </div>
+                        
+                        <div class="projdesc">
                             <ul>
-                                <li>Keep records of products and orders</li>
-                                <li>Edit contents and managing products</li>
+                                <li>A simple banking system built using Java.</li>
                             </ul>
                         </div>
-                    </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/Sport-Layout-Site">Sport Layout Site</a>
-                            </div>
-                            <ul>
-                                <li>Layout page</li>
-                                <li>Resize text and images</li>
-                                <li>Media queries</li>
-                            </ul>
+                        <div class="tools">
+                            <button>Java</button>
                         </div>
-                    </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <div class="text">
-                                <a href="https://github.com/alimaxx17/Responsive-Website">Nature Responsive Site</a>
-                            </div>
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Banking-System">Source Code</a>
+                        </div>
+                        <br>
+
+                        <div class="projtitles">
+                            Zodiac Sign 
+                        </div>
+                                                
+                        <div class="projdesc">
+                        <ul>
+                            <li>A Zodiac Sign Calculator that utilizes Python</li>
+                        </ul>
+                        </div>
+
+                        <div class="tools">
+                            <button>Python</button>
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Zodiac-Sign">Source Code</a>
+                        </div>
+                        
+                        <div class="projtitles">
+                            Hospital Management System
+                        </div>
+                        
+                        <div class="projdesc">
                             <ul>
-                                <li>Responsive page</li>
-                                <li>Edit contents and managing products</li>
+                                <li>A Hospital Database System use to search, add or book patients using JSP and Servlet</li>
                             </ul>
                         </div>
+
+                        <div class="tools">
+                            <button>JSP</button>
+                            <button>Servlet</button>
+                        </div>
+
+                        <div class="links">
+                            <a href="https://github.com/alimaxx17/Hospital-Management-System">Source Code</a>
+                        </div>
+
+                        <div class="projtitles">
+                            Inventory System
+                        </div>
+
+                        <div class="projdesc">
+                        <ul>
+                            <li>An Inventory System where the admin can edit and edit products</li>
+                        </ul>
+                        </div>
+                        <div class="tools">
+                            <button>PHP</button>
+                            <button>MySQL</button>
+                            <button>CSS</button>
+                        </div>
+                        <div class="links">
+                        <a href="https://github.com/alimaxx17/Inventory-System">Source Code</a> 
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -148,7 +233,7 @@
     <!-- CONTACT -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Let's work together</h2>
+            <h2 class="title"><span class="footer"></span></h2>
             <div class="contact-content">
                 <div class="column">
                     <div class="links-container">
